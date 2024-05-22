@@ -7,4 +7,6 @@ Data: A time series containing weekly information for electricity consumption in
 
 1) Statistical analyses on time series data using Python
 
-Checking for stationarity, unit root, seasonality, trend and autocorrelation
+Checking for stationarity, unit root, seasonality, trend, and autocorrelation
+
+![ts1](https://github.com/Pollybs/energy_consumption_time_series/blob/main/plots/energy_use_graph.png)
