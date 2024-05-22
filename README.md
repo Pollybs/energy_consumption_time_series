@@ -5,8 +5,34 @@ Data: A time series containing weekly information for electricity consumption in
 
 <h2> Steps: </h2>
 
-1) Statistical analyses on time series data using Python
+1) Data Overview
+![ts1](https://github.com/Pollybs/energy_consumption_time_series/blob/main/plots/energy_use_graph.png)
+
+2) Statistical analyses on time series data using Python
 
 Checking for stationarity, unit root, seasonality, trend, and autocorrelation
 
-![ts1](https://github.com/Pollybs/energy_consumption_time_series/blob/main/plots/energy_use_graph.png)
+a) stationarity &  unit root
+Results of KPSS Test:
+Test Statistic             1.176234
+p-value                    0.010000
+
+Results of Dickey-Fuller Test:
+Test Statistic                -1.882891e+01
+p-value                        2.022125e-30
+
+Conclusion: ADF does not find a unit root; but KPSS claims that it is non-stationary. Then, the series is difference stationary. 
+
+(at least one of the tests claims to have found non-stationarity, differencing must be used.)
+
+![ts2](https://github.com/Pollybs/energy_consumption_time_series/blob/main/plots/stl.png)
+
+![ts5](https://github.com/Pollybs/energy_consumption_time_series/blob/main/plots/mw_hour.png)
+
+![ts3](https://github.com/Pollybs/energy_consumption_time_series/blob/main/plots/mw_day_week.png)
+
+![ts4](https://github.com/Pollybs/energy_consumption_time_series/blob/main/plots/mw_month.png)
+
+
+
+
