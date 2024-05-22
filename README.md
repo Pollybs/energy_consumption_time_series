@@ -13,6 +13,7 @@ Data: A time series containing weekly information for electricity consumption in
 Checking for stationarity, unit root, seasonality, trend, and autocorrelation
 
 a) stationarity &  unit root
+
 Results of KPSS Test:
 Test Statistic             1.176234
 p-value                    0.010000
@@ -24,6 +25,8 @@ p-value                        2.022125e-30
 Conclusion: ADF does not find a unit root; but KPSS claims that it is non-stationary. Then, the series is difference stationary. 
 
 (at least one of the tests claims to have found non-stationarity, differencing must be used.)
+
+b) STL: 
 
 ![ts2](https://github.com/Pollybs/energy_consumption_time_series/blob/main/plots/stl.png)
 
