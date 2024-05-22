@@ -26,7 +26,7 @@ Conclusion: ADF does not find a unit root; but KPSS claims that it is non-statio
 
 (at least one of the tests claims to have found non-stationarity, differencing must be used.)
 
-b) STL: 
+b) Seasonality and trend (STL): 
 
 ![ts2](https://github.com/Pollybs/energy_consumption_time_series/blob/main/plots/stl.png)
 
