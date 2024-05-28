@@ -41,4 +41,6 @@ Kendall's tau: -0.04791052695148664
 P-value: 2.801793697350987e-165
 There is a significant trend in the time series.
 
+![ts5](https://github.com/Pollybs/time_series_energy_consumption/blob/main/plots/train_test.png)
+
 
