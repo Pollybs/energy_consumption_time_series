@@ -7,7 +7,7 @@ Data: A time series containing weekly information for electricity consumption in
 
 <h3>1) Data Overview</h3>
 
-![ts1](https://github.com/Pollybs/energy_consumption_time_series/blob/main/plots/energy_use_graph.png)
+![ts1](https://github.com/Pollybs/time_series_energy_consumption/blob/main/plots/hourly_energy_consumption.png)
 
 <h3>2) Statistical analysis of time series data using Python</h3>
 
