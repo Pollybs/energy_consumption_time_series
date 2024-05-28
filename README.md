@@ -37,6 +37,8 @@ b) Seasonality and trend (STL):
 
 ![ts4](https://github.com/Pollybs/energy_consumption_time_series/blob/main/plots/mw_month.png)
 
-
+Kendall's tau: -0.04791052695148664
+P-value: 2.801793697350987e-165
+There is a significant trend in the time series.
 
 
